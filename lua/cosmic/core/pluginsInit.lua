@@ -2,7 +2,7 @@ local u = require('cosmic.utils.cosmic')
 local user_config = require('cosmic.core.user')
 
 require('lazy').setup('cosmic.plugins', {
-  lockfile = u.get_install_dir() .. '/lazy-lock.json',
+  lockfile = u.get_install_path() .. '/lazy-lock.json',
   defaults = { lazy = true },
   ui = {
     border = user_config.border,
