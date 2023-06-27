@@ -1,6 +1,6 @@
 local cosmic_modules = {
   'cosmic.core.editor',
-  'cosmic.core.pluginsInit',
+  'cosmic.core.plugins',
   'cosmic.core.commands',
   'cosmic.lsp',
   'cosmic.config.editor',

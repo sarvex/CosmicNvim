@@ -1,1 +1,1 @@
-require('cosmic.core')
+require 'cosmic.core'
